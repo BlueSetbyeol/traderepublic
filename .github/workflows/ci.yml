@@ -23,7 +23,7 @@ jobs: # Les actions
 
       steps:
         - name: Checkout code
-          uses: actions/checkout@v4    
+          uses: actions/frontend/checkout@v4    
         
         - name: Setup Node.js
           uses: actions/setup-node@v4  
@@ -31,7 +31,6 @@ jobs: # Les actions
             node-version: '20'   
             cache: 'npm'     
         
-        # Frontend
         - name: Install Frontend
           working-directory: ./frontend  
           run: npm ci                    
