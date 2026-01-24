@@ -22,9 +22,12 @@ body,
   font-family: var(--font-family);
   color: var(--primary-font-color);
   font-weight: 500;
+  margin: 0;
+  background-color: var(--primary-color);
 }
 
 main {
+  width: 94vw;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -32,4 +35,8 @@ main {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+a {
+  text-decoration: none;
 }
