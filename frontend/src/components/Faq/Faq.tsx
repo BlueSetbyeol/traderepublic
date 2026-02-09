@@ -346,6 +346,7 @@ export default function Faq() {
           fontSize: "18px",
           textTransform: "none",
           paddingLeft: "1em",
+          paddingTop: "4em",
         }}
       >
         Centre d'Aide <ChevronRightIcon />
