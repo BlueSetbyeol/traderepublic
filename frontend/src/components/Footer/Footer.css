@@ -1,0 +1,57 @@
+footer {
+    width: 98vw;
+    padding: 20px;
+}
+
+/* Blocs */
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 96px;;
+    align-content: center
+}
+
+.little-gap-flex-wrapper {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 8px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.little-gap-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+/* Textes */
+
+p {
+    text-align: left; 
+    font-size: 18px;
+    color: black;
+}
+
+span {
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    font-size: 18px;
+}
+
+a {
+    font-weight: 600;
+    color: #BCC2CA;
+    text-align: left;
+    font-size: 18px;
+}
