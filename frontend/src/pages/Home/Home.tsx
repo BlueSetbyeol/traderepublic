@@ -1,7 +1,11 @@
+import "./Home.css";
+
 export default function Home() {
   return (
     <>
-      <h1>Home Page</h1>
+      <section className="hero">
+        <h1>La manière la plus intelligente d'investir, de dépenser et d'épargner.</h1>
+      </section>
     </>
   );
 }
