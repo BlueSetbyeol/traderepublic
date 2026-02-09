@@ -45,6 +45,76 @@ export default function Home() {
         </div>
       </div>
     </section>
+    <section className="hero-section">
+      <div className="content-container">
+        <h2 className="main-title">
+          Épargnez maintenant, pour plus tard
+        </h2>
+
+        <div className="feature-list">
+          <div className="feature-item">
+            <span className="feature-title">Commencez à investir dès 1 €</span>
+            <span className="feature-description"> dans les actions, ETF, crypto et le non coté. Aucuns frais cachés.</span>
+          </div>
+
+          <div className="feature-item">
+            <span className="feature-title">Créez des plans d'épargne</span>
+            <span className="feature-description"> sans frais avec Trade Republic pour vous constituer une épargne à long terme.</span>
+          </div>
+
+          <div className="feature-item">
+            <span className="feature-title">Créez un Plan Épargne Enfant</span>
+            <span className="feature-description"> entièrement en ligne.</span>
+          </div>
+
+          <div className="feature-item">
+            <span className="feature-title">Investir peut vous aider à faire fructifier votre argent,</span>
+            <span className="feature-description"> mais chaque investissement comporte des risques.</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="image-container">
+        <div className="device-mockup">
+          <img src={Image2} alt="Application d'épargne sur smartphone" />
+        </div>
+      </div>
+    </section>
+    <section className="hero-section">
+      <div className="image-container">
+        <div className="device-mockup">
+          <img src={Image3} alt="Portefeuille d'investissement" />
+        </div>
+      </div>
+
+      <div className="content-container">
+        <h2 className="main-title">
+          Équilibrez votre portefeuille
+        </h2>
+
+        <div className="feature-list">
+          <div className="feature-item">
+            <span className="feature-title">Investissez dans Private Markets.</span>
+            <span className="feature-description"> Allez au-delà des marchés financiers avec Apollo et EQT.</span>
+          </div>
+
+          <div className="feature-item">
+            <span className="feature-title">Profitez d'intérêts élevés pendant des années</span>
+            <span className="feature-description"> avec l'Obligataire, y compris les obligations américaines.</span>
+          </div>
+
+          <div className="feature-item">
+            <span className="feature-title">Tradez et transférez 50 cryptos,</span>
+            <span className="feature-description"> ou recevez des intérêts du staking dans votre Wallet Crypto.</span>
+          </div>
+
+          <div className="feature-item">
+            <span className="feature-title">La diversification peut réduire les risques de marché,</span>
+            <span className="feature-description"> mais chaque investissement comporte toujours des risques.</span>
+          </div>
+        </div>
+      </div>
+    </section>
       
       <Faq />
     </>
