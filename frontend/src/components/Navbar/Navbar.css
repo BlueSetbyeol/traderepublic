@@ -14,7 +14,7 @@ nav a {
 }
 
 .introduction {
-  width: 94vw;
+  width: 96vw;
   background-color: var(--primary-color);
   border-bottom: 1px solid var(--primary-font-color);
   padding: 1em 2em;
@@ -26,7 +26,7 @@ nav a {
 
 .navigation {
   margin-top: 0.5em;
-  width: 94vw;
+  width: 96vw;
   padding: 0 2em;
   display: flex;
   align-items: start;
@@ -34,7 +34,7 @@ nav a {
 }
 
 .logo {
-  width: 14em;
+  width: 8em;
   height: auto;
 }
 
