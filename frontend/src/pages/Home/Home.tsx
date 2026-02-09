@@ -3,6 +3,8 @@ import Faq from "../../components/Faq/Faq";
 import Image1 from "../../assets/images/videoframe_2671.png"
 import Image2 from "../../assets/images/videoframe_3106.png"
 import Image3 from "../../assets/images/videoframe_3755.png"
+import Confiance from "../../components/Confiance/Confiance";
+
 
 export default function Home() {
   return (
@@ -115,7 +117,7 @@ export default function Home() {
         </div>
       </div>
     </section>
-      
+      <Confiance />
       <Faq />
     </>
   );
