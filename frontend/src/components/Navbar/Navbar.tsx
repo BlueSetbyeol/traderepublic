@@ -19,7 +19,7 @@ export default function Navbar() {
           />
         </Link>
         <section className="connect_area">
-          <Link to="">Connexion</Link>
+          <Link to="/contact">Connexion</Link>
           <Button
             variant="contained"
             className="qrcode"

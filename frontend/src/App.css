@@ -12,12 +12,12 @@
 body,
 #root {
   width: 100vw;
+  min-width: 320px;
+  min-height: 100vh;
   text-align: center;
   display: flex;
   flex-direction: column;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
   font-family: var(--font-family);
   color: var(--primary-font-color);
   font-weight: 500;
